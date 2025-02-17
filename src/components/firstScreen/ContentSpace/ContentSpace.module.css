@@ -1,0 +1,11 @@
+.ContentSpace{
+    background: linear-gradient(-180deg, var(--gradientPairLightLeft),var(--gradientPairDarkRight) );
+    height: 100%;
+    flex:1;
+    border-radius:24px;
+    border: solid 2px var(--border);
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: stretch;
+    justify-content: flex-start;
+}

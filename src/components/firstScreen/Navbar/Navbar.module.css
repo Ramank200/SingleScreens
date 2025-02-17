@@ -1,0 +1,119 @@
+.NavbarWrapper{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.DirectionsWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex:1;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin: 16px 0;
+}
+
+.LoginsButtons{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+    gap: 8px;
+    background-color: var(--background);
+    width:fit-content;
+    border-radius: 0px 0px 0px 24px;
+    position:relative;
+    padding: 8px 16px;
+    border-left: solid 2px var(--border);
+    border-bottom: solid 2px var(--border);
+    border-top: solid 2px var(--background);
+    border-right: solid 2px var(--background);
+    right: -2px;
+    top: -2px;
+}
+
+.LoginButtonAfter{
+    position: absolute;
+    left:-66px;
+    top:-15px;
+    border-radius: 50%;
+    border-top: solid 14px var(--background);
+    border-bottom: solid 14px transparent;
+    border-left: solid 14px transparent;
+    border-right: solid 14px transparent;
+    height:80px;
+    width:80px;
+    transform: rotateZ(45deg);
+}
+
+.LoginButtonAfterSub{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border-top: solid 2px var(--border);
+    border-bottom: solid 2px transparent;
+    border-left: solid 2px transparent;
+    border-right: solid 2px transparent;
+}
+
+.LoginButtonBefore{
+    position: absolute;
+    right:-15px;
+    top:calc(100% - 14px);
+    border-radius: 50%;
+    border-top: solid 14px var(--background);
+    border-bottom: solid 14px transparent;
+    border-left: solid 14px transparent;
+    border-right: solid 14px transparent;
+    height:80px;
+    width:80px;
+    transform: rotateZ(45deg);
+}
+
+.LoginButtonBeforeSub{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border-top: solid 2px var(--border);
+    border-bottom: solid 2px transparent;
+    border-left: solid 2px transparent;
+    border-right: solid 2px transparent;
+     /* transform: rotateZ(45deg); */
+}
+
+.NavigationButton{
+    width: fit-content;
+    width:125px;
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: 1px solid var(--textColor);
+    text-align: center;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.NavigationButton:active{
+    background-color: var(--background);
+}
+
+.LoginButton,.SignInButton{
+    width: 150px;
+    border-radius: 40px;
+    padding: 8px 16px;
+    text-align: center;
+    border: 1px solid #92919d;
+    color: #92919d;
+    text-align: center;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 500;
+    padding:16px 24px ;
+}
+
+.LoginButton:hover,.SignInButton:hover{
+    background-color: var(--primaryThemeColor);
+    color: var(--solidWhite);
+}

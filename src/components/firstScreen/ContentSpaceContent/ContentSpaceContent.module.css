@@ -1,0 +1,61 @@
+.ContentSpaceContainer{
+    flex:1;
+    display: flex;
+    align-items: stretch;
+    gap:16px;
+}
+
+.TheImage{
+    border-radius: 20px;
+}
+
+.LeftContainer{
+    flex:1;
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+.ImagePortion{
+    width: fit-content;
+}
+
+.RightContainer{
+    flex:2;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap:32px;
+    padding: 32px 16px;
+    max-height: 80dvh;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.TextHeading{
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 600;
+    margin:0px 0px 16px 0px;
+}
+
+.TextParagraph{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.DescriptionCard{
+    height: 150px;
+    min-height: 150px;
+    width:300px;
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 20px;
+}
+
+.TextPortion{
+    max-width: 550px;
+}

@@ -1,0 +1,14 @@
+.primitiveParent{
+    height:calc(100dvh - 0px);
+    width:calc(100vw - 0px);
+    background: var(--background);
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+.ParentHolder{
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+}
